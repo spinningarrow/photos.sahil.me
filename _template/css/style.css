@@ -1,0 +1,48 @@
+body {
+	margin: 1em;
+}
+
+a:link {
+	color: cornflowerblue;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: cornflowerblue;
+	color: white;
+}
+
+main {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+}
+
+article {
+	flex: 0 0 auto;
+	margin-bottom: 2em;
+	margin-right: 1em;
+}
+
+article img {
+	max-height: 15em;
+}
+
+article .photo-details {
+	font-size: 0.8em;
+}
+
+article .meta {
+	color: #999;
+}
+
+article .permalink {
+	margin-left: 0.2em;
+}
+
+footer {
+	color: #ccc;
+	font-size: 0.9em;
+	line-height: 2em;
+	text-align: center;
+}
